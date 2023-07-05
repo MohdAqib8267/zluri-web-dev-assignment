@@ -61,5 +61,11 @@ const FeedbackDiv = styled.div`
     font-weight: 200;
     line-height: 40px;
     color: rgb(0, 0, 0);
+
+     @media (max-width: 768px) {
+        line-height: 20px;
+        padding-bottom: 50px;  
+    }
   }
+ 
 `;
