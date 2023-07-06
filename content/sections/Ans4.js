@@ -5,7 +5,7 @@ import Mountain from "../../content/images/Mountain.png";
 import Forest from "../../content/images/Forest.png";
 import Ocean from "../../content/images/Ocean.png";
 import dropdownIcon from "../../content/images/dropdown.png";
-import Ans3 from "./Ans4";
+import Ans3 from "./Ans3";
 
 const MainWrapper = styled.div`
   display: flex;
@@ -98,7 +98,7 @@ const DropdownContent = styled.div`
 
   border-radius: 10px;
   @media (max-width: 768px) {
-    top:65%;
+    top:73%;
   }
 `;
 
@@ -192,7 +192,8 @@ const Dropdown = () => {
               </DropdownOption>
             ))}
           </DropdownContent> 
-         
+          
+         {/* <Ans3 /> */}
         </DropdownWrapper>
          
         

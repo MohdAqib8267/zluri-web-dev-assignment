@@ -112,14 +112,19 @@ const Dropdown = () => {
     const images = [Mountain, Forest, Ocean, Desert];
   const [isOpen, setIsOpen] = useState(false);
   const [selectImageText, setSelectImageText] = useState("Dropdown");
+  const [selectedImage, setSelectedImage] = useState(images[0]);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
   const handleOptionClick = (image) => {
+    setSelectedImage(image);
     setIsOpen(false);
     setSelectImageText(image.split("/")[2].split("-")[0]);
+  };
+  const handleOptionHover = (image) => {
+    setSelectedImage(image);
   };
 
   return (
@@ -148,3 +153,25 @@ const Dropdown = () => {
 };
 
 export default Dropdown;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
