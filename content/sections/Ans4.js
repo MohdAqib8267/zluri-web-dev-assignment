@@ -98,7 +98,7 @@ const DropdownContent = styled.div`
 
   border-radius: 10px;
   @media (max-width: 768px) {
-    top:73%;
+    top:75%;
   }
 `;
 

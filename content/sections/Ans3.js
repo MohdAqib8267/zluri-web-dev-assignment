@@ -14,7 +14,7 @@ const MainWrapper = styled.div`
   height: 72vh;
   background: #def3fc;
   @media (max-width: 768px) {
-    height:45vh;
+    height:40vh;
   }
 `;
 
@@ -24,6 +24,10 @@ const ContentWrapper = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
+  @media (max-width: 768px) {
+   margin-bottom: 100px;
+  }
+  
 `;
 
 const DropdownWrapper = styled.div`
