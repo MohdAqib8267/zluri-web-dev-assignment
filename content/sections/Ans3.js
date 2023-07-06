@@ -14,7 +14,7 @@ const MainWrapper = styled.div`
   height: 72vh;
   background: #def3fc;
   @media (max-width: 768px) {
-    height:40vh;
+    height:50vh;
   }
 `;
 
