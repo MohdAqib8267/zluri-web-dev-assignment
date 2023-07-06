@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import { Menu, X } from "react-feather";
 import styled from "styled-components";
 import { Container } from "./style";
+import Resume from "../../static/mohdaqibresume.pdf";
 
 export default class Navigation extends Component {
   state = {
@@ -75,7 +76,8 @@ export default class Navigation extends Component {
                                     </a> */}
                   <a
                     target="_blank"
-                    href="https://drive.google.com/file/d/16NqCgLjbEE8NYy5SbvAlPSiz7jXn4JjD/view?usp=drive_link"
+                    // href="https://drive.google.com/file/d/16NqCgLjbEE8NYy5SbvAlPSiz7jXn4JjD/view?usp=drive_link"
+                    href={Resume}
                   >
                     <button>Resume</button>
                   </a>
@@ -98,7 +100,8 @@ export default class Navigation extends Component {
                   <ActionsContainer>
                     <a
                       target="_blank"
-                      href="https://drive.google.com/file/d/16NqCgLjbEE8NYy5SbvAlPSiz7jXn4JjD/view?usp=drive_link"
+                      // href="https://drive.google.com/file/d/16NqCgLjbEE8NYy5SbvAlPSiz7jXn4JjD/view?usp=drive_link"
+                      href={Resume}
                     >
                       <button>Resume</button>
                     </a>
